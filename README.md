@@ -1,6 +1,8 @@
 # tableau_redshift_to_snowflake
 Convert Tableau Workbooks from Redshift to Snowflake
 
+**Fair Warning: Tableau does not recommend directly modifying the XML. Please ensure you have a backup copy of the packaged workbook for testing / validation prior to proceeding with the conversion.**
+
 This script can be used to modify Tableau's XML to repoint all current Redshift connections to Snowflake as can be used as an alternative to Tableau's replace data source option. This script will only modify Redshift connections and leave any other classes of connections in their original form.
 
 This script only uses base Python packages (tested with Python 3.7 and above)
