@@ -16,6 +16,7 @@ custom SQL.
 
 Known limitations:
   - This will not work on converting published data sources.
+  - Assumes Redshift tables are residing in public schema
 
 Usage:
   Ensure the following variables are set prior to running:
