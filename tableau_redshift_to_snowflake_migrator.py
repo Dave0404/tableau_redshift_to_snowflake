@@ -26,7 +26,7 @@ Usage:
     WAREHOUSE = ""
     SCHEMA = ""
     ROLE_NAME = ""
-  Run the script and specify the path to the Tableau workbook, relative to this script:
+  Run the script and specify the path to the Tableau workbook, relative to this script. The below example assumes both are in the same directory.
     >>> python tableau_redshift_to_snowflake_migrator.py MyWorkbook.tbwx
 '''
 
