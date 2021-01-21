@@ -148,7 +148,7 @@ def _xml_replacements(workbook_path):
             if relation.get('table') is None:
                continue
             relation.set('table', relation.get('table').upper())
-            relation.set('table', relation.get('table').replace('PUBLIC', f'{schema}'))
+            relation.set('table', relation.get('table').replace('PUBLIC', f'{SCHEMA}'))
 
             redshift_name = relation.get('name')
             snowflake_name = redshift_name.upper()
