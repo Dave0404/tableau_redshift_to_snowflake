@@ -19,6 +19,6 @@ SCHEMA = ""
 ROLE_NAME = ""
 ```
 
-One the above are set the script can be run via the following command <br /> `python tableau_redshift_to_snowflake_migrator.py MyWorkbook.tbwx`
+One the above are set the script can be run via the following command <br /> `python tableau_redshift_to_snowflake_migrator.py MyWorkbook.twbx`
 
 Thank you to https://gist.github.com/gnilrets/bc1e85aee26105013b08e038b19a42f7 and https://github.com/calogica/tableau-redshift-snowflake-converter/blob/master/Tableau%20Redshift%20to%20Snowflake%20Migration%20Script.ipynb for setting the groundwork.
